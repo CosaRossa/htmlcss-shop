@@ -113,3 +113,97 @@ main{
 .path a:hover{
   text-decoration: underline;
 }
+
+/* Results */
+.results{
+  font-size: 30px;
+  margin-left: 25%;
+  margin-top: 20px;
+  color: #004080;
+  margin-top: 20px;
+}
+
+.results span{
+  font-size: 17px;
+  font-style: italic;
+  margin-left: 6px;
+}
+
+/* Immagini */
+.row{
+  text-align: center;
+}
+
+.row img[src*="tel"]{
+  width: 300px;
+  height: 370px;
+  margin: 40px 20px;
+  border: 2px solid #666;
+}
+
+.telefono{
+  position: relative;
+  display: inline-block;
+}
+
+[src="icone/shopping-cart.png"]{
+  width: 20px;
+  height: 20px;
+  border: 0px;
+  display: inline-block;
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  display: none;
+}
+
+.heart{
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+  display: none;
+}
+
+.telefono:hover .shopping-cart{
+  display: block;
+}
+
+.telefono:hover .heart{
+  display: block;
+}
+
+.heart:hover{
+  color: red;
+}
+
+/* Fondo pagina */
+footer{
+  background-color: #004080;
+  text-align: center;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.newsletter{
+  background-color: #4181c0;
+  padding-top: 25px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.newsletter input{
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 8px 0px 20px 0px;
+  padding: 4px 30px 4px 3px;
+}
+
+.newsletter [type="submit"]{
+  padding: 3px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.contact{
+  font-size: 13px;
+}

@@ -1,0 +1,45 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+/* Intestazione */
+header{
+  background-color: #008000;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  position: relative;
+}
+
+.logo{
+  width: 40px;
+}
+
+h1{
+  display: inline-block;
+  color: #fff;
+}
+
+/* Accedi e Carrello */
+.side{
+  position:absolute;
+  right: 5%;
+  top:30%;
+  color: #fff;
+}
+
+.side img{
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.login, .cart{
+  display: inline-block;
+}
+
+.login{
+  margin-right: 17px;
+}

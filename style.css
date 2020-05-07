@@ -4,8 +4,8 @@ box-sizing: border-box;
 }
 
 /* Intestazione */
-header{
-  background-color: #008000;
+.intestazione{
+  background-color: #4181c0;
   padding-left: 10%;
   padding-top: 15px;
   padding-bottom: 10px;
@@ -26,20 +26,74 @@ h1{
 .side{
   position:absolute;
   right: 5%;
-  top:30%;
+  top:40%;
   color: #fff;
+  font-size: 20px;
 }
 
 .side img{
-  width: 30px;
+  width: 25px;
   vertical-align: middle;
   margin-right: 4px;
 }
 
 .login, .cart{
   display: inline-block;
+  cursor: pointer;
 }
 
 .login{
   margin-right: 17px;
+}
+
+/* Searchbar */
+.searchbar{
+  background-color: #004080;
+}
+
+.searchbar input{
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 15px 10px 15px 50px;
+  padding: 4px 30px 4px 3px;
+}
+
+.searchbar button{
+  display: inline-block;
+  width: 28px;
+  height: 22px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.searchbar button img{
+  width: 13px;
+}
+
+/* Menù */
+.menu{
+  background-color: #104160;
+  padding: 13px 0px 13px 20px;
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0 30px;
+  cursor: pointer;
+  font-size: 18px;
+  border-right: 1px solid #fff;
+}
+
+.menu a:last-child{
+  border: 0px;
+}
+
+.menu a:hover{
+  text-decoration: underline;
+}
+
+/* Corpo pagina */
+main{
+  background-color: #ededed;
 }

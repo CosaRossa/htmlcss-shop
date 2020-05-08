@@ -4,6 +4,15 @@ box-sizing: border-box;
 }
 
 /* Intestazione */
+
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 9999;
+}
+
 .intestazione{
   background-color: #4181c0;
   padding-left: 10%;
@@ -96,6 +105,7 @@ h1{
 /* Corpo pagina */
 main{
   background-color: #ededed;
+  margin-top: 180px;
 }
 
  /* breadcrumbs */
@@ -135,7 +145,7 @@ main{
 }
 
 .row1{
-  -top: 50px;
+  top: 50px;
 }
 
 
@@ -151,7 +161,7 @@ main{
   display: inline-block;
 }
 
-[src="icone/addcart.png"]{
+[src*="addcart"]{
   width: 20px;
   height: 20px;
   border: 0px;
@@ -210,8 +220,8 @@ main{
   color: red;
 }
 
-[src*="addcart"]:hover{
-  background-color: orange !important;
+.telefono [src*="addcart"]:hover{
+  background-color: orange;
 }
 
 /* Fondo pagina */
